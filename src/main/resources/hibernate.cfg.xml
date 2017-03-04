@@ -6,8 +6,9 @@
   <session-factory>
     <property name="connection.url">jdbc:mysql://localhost:3306/xqq</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-    <mapping class="com.xy.entity.AdminEntity"/>
-    <!-- <property name="connection.username"/> -->
+      <mapping class="com.xy.entity.AdminEntity"/>
+      <mapping class="com.xy.entity.ArticleEntity"/>
+      <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 
     <!-- DB schema will be updated if needed -->
